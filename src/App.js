@@ -16,10 +16,10 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      title: ["Face Recognition App", "Robofriends", "Random Quote Generator", "Techinal Documentation Page"],
-      description: ["stuff", "stuff", "stuff", "stuff"],
-      builtwith: ["react and node.js", "react", "react", "html and css"],
-      viewproject: ["link1", "link2", "link3", "link4"],
+      title: ["Face Recognition App", "Robofriends", "Random Quote Generator", "Background Generator"],
+      description: ["Recognizes face locations in photos with a Machine Learning API. Log in to use the app. Put in an url of an image address and click detect.", "Search through an API of friends by name and the results will filter accordingly.", "Click through some awesome Star Wars quotes.", "Pick color gradients to set a background."],
+      builtwith: ["react, machine learning API, postgreSQL, hashing for secure login, node.js and express.js", "react and redux, robohash API ", "react and css3", "html and css3"],
+      viewproject: ["https://face-recognition-detector.herokuapp.com/", "https://coltonhibbert.github.io/robofriends4/", "https://coltonhibbert.github.io/random-quote-machine/", "https://coltonhibbert.github.io/background-generator/"],
       images: [image1, image2, image3, image4]
     }
 
