@@ -6,10 +6,10 @@ import ProjectsMain from './components/mainsection/projects/projectsmain/Project
 import 'tachyons';
 import ProjectCardLeft from './components/mainsection/projects/projectcardleft/ProjectCardLeft';
 import ProjectCardRight from './components/mainsection/projects/projectcardright/ProjectCardRight';
-import image1 from './SmartBrainSnapshot.PNG';
-import image2 from './RobofriendsSnapshot.PNG';
-import image3 from './RandomQuoteGeneratorSnapshot.PNG';
-import image4 from './BackgroundGeneratorSnapshot.PNG';
+import image1 from './smartbrain.PNG';
+import image2 from './robofriends.PNG';
+import image3 from './randomquote.PNG';
+import image4 from './background.PNG';
 import Skills from './components/mainsection/skills/Skills.js';
 import Contact from './components/mainsection/contact/Contact.js';
 

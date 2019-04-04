@@ -12,9 +12,9 @@ const ProjectsMain = (props) => {
 
             <div className="
             w-100 flex flex-column items-center 
-            w-100-l flex-l flex-row-l flex-wrap-l justify-center-l
+            
             bg-light-blue">
-
+            {/*w-100-l flex-l flex-row-l flex-wrap-l justify-center-l*/}
                 {props.children}
 
             </div>
