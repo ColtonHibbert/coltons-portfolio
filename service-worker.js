@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ColtonHibbert/coltons-portfolio/precache-manifest.a740f4d83e391e9c022b81f869d9cefb.js"
+  "/coltons-portfolio/precache-manifest.1430146f2a0b6395e48f4066d280c0ac.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/ColtonHibbert/coltons-portfolio/index.html", {
+workbox.routing.registerNavigationRoute("/coltons-portfolio/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
