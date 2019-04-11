@@ -1,7 +1,7 @@
 
 import React from 'react';
 const Skills = ({frontEndImage, frontEndText, backEndImage, backEndText}) => {
-    
+//console.log(this)   
     let arr = [{}];
     return ( 
         <div id="skills" className="bg-light-blue pv3">
