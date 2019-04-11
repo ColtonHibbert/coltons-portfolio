@@ -9,7 +9,7 @@ import image1 from './smartbrain.PNG';
 import image2 from './robofriends.PNG';
 import image3 from './randomquote.PNG';
 import image4 from './background.PNG';
-import Skills from './components/mainsection/skills/Skills.js';
+import Skills from './components/mainsection/skills/skills.js';
 import Contact from './components/mainsection/contact/Contact.js';
 import Footer from  './components/footersection/footer/Footer.js';
 
