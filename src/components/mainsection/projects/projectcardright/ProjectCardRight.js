@@ -35,9 +35,12 @@ const ProjectCardRight= ({ title, description, builtWith, viewProject, images, v
                 <div className="flex flex-column items-center ma2">Built with: 
                     <div className="tc ma0">{builtWith}</div>
                 </div>
-                <div className="flex flex-column">
-                    <a className="f6 link dim br3 ph3 pv2 mb2 mt1 dib white bg-dark-blue" href={viewSourceCode} target="blank">Source Code</a>
-                    <a className="f6 link dim br3 ph3 pv2 mb2 mt1 dib white bg-dark-blue" href={viewProject} target="blank">View Project</a>
+                <div className="flex flex-column items-center">
+                    <a className="w4 tc f6 link dim br3 ph3 pv2 mb2 mt1 dib white bg-dark-blue" href={viewSourceCode} target="blank">Source Code</a>
+                    {
+                        title === "MyOutdoorTrails" ? <div>Still in development, hosting in progress.</div> :
+                         <a className="w4 tc f6 link dim br3 ph3 pv2 mb2 mt1 dib white bg-dark-blue" href={viewProject} target="blank">View Project</a>
+                    }
                 </div>
             </div>
         </div>
