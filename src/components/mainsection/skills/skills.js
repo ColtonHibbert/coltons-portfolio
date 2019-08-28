@@ -11,13 +11,13 @@ const Skills = ({frontEndImage, frontEndText, backEndImage, backEndText}) => {
                 w-100 flex flex-column
                 flex-ns flex-column-ns
                 flex-m flex-column-m
-                flex-l flex-row-l"
+                flex-l flex-row-l justify-center"
             >
-                    <div className="w-100 flex flex-column items-center">
-                        <h2>Front End</h2>
+                    <div className="w-100 flex flex-column items-center items-end-l">
+                        <h2 className="w-100 w-40-l flex flex-row justify-center ma3">Front End</h2>
                     {   frontEndImage.map((item, i) => {                   
                             return(
-                            <div className="w-100 flex flex-row ma1" key={frontEndText[i]}>
+                            <div className="w-100 w-40-l flex flex-row ma1" key={frontEndText[i]}>
                                 <div className="w-100 flex flex-column items-end">
                                 {  arr.map((item, j) => {
                                     if(frontEndImage[i] !== "empty") {
@@ -42,11 +42,11 @@ const Skills = ({frontEndImage, frontEndText, backEndImage, backEndText}) => {
                         })   
                     } 
                     </div>
-                    <div className="w-100 flex flex-column items-center">
-                        <h2>Back End</h2>
+                    <div className="w-100 flex flex-column items-center items-start-l">
+                        <h2 className="w-100 w-40-l flex flex-row justify-center ma3">Back End</h2>
                     {   backEndText.map((item, i) => {
                             return(
-                            <div className="w-100 flex flex-row ma1" key={backEndText[i]}>
+                            <div className="w-100 w-40-l flex flex-row ma1" key={backEndText[i]}>
                                 <div className="w-100 flex flex-column items-end">
                                { arr.map((item, j) => {
                                     if(backEndImage[i] !== "empty") {

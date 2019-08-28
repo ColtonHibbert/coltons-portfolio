@@ -54,7 +54,7 @@ class App extends Component {
   render() {
     
     return (
-      <div className="w-auto">
+      <div className="w-100 min-vh-100">
        <Header />
        <Hero />
        <ProjectsMain> 
