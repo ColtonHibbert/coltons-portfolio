@@ -1,12 +1,14 @@
 import React from 'react';
+import file from '../../../coltonhibbertfullstackdeveloper.pdf'
 
 const Header = (props) => {
     return (
         <div className="w-100 flex flex-column items-center flex-row-ns justify-between-ns pb2 pl1 bg-light-blue ma0 "> 
             <ul className="w-100 flex justify-start ma0 list pa0 pl2">
-                <li className="pr4 pt1"><a href="#projects" className="no-underline white">Projects</a></li>
-                <li className="pr4 pt1"><a href="#skills" className="no-underline white">Skills</a></li>
-                <li className="pr4 pt1"><a href="#contact" className="no-underline white">Contact</a></li>
+                <li className="pr3 pt1"><a href="#projects" className="no-underline white">Projects</a></li>
+                <li className="pr3 pt1"><a href="#skills" className="no-underline white">Skills</a></li>
+                <li className="pr3 pt1"><a href="#contact" className="no-underline white">Contact</a></li>
+                <li className="pt1"><a href={file} download="Colton_Hibbert_Full_Stack_Developer" className="no-underline white">Resume</a></li>
             </ul>
             <div className="w-100 flex justify-start justify-end-ns pt2">
                 <a className="w2 h2 mh2 link white-60 dim" href="https://github.com/ColtonHibbert" target="blank" title="GitHub">
