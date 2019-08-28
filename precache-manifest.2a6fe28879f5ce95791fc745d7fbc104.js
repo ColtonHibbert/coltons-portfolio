@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "5b24c3d825487b143c6eca22f1ce8626",
-    "url": "/coltons-portfolio/static/media/jillsoffice.5b24c3d8.PNG"
+    "revision": "f6a08dd641fbad04391756f154c8e00d",
+    "url": "/coltons-portfolio/static/media/jillsoffice.f6a08dd6.PNG"
   },
   {
-    "revision": "8919a357d3d2eec08f65",
+    "revision": "9ae6ee2b35f0a051d074",
     "url": "/coltons-portfolio/static/css/main.5c170cec.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/coltons-portfolio/static/media/Colton-Salt-Flats.0a38f716.jpg"
   },
   {
-    "revision": "8919a357d3d2eec08f65",
-    "url": "/coltons-portfolio/static/js/main.8919a357.chunk.js"
+    "revision": "9ae6ee2b35f0a051d074",
+    "url": "/coltons-portfolio/static/js/main.9ae6ee2b.chunk.js"
   },
   {
     "revision": "f7e36644331f4ae115205da212011c58",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/coltons-portfolio/static/css/2.38617d40.chunk.css"
   },
   {
-    "revision": "608dda21faa79182cf4ae08aca8e5ab4",
+    "revision": "66d35b35ee56bf8df95f8fdd6bf3dbe3",
     "url": "/coltons-portfolio/index.html"
   }
 ];
