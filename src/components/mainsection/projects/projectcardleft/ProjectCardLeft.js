@@ -46,7 +46,7 @@ const ProjectCardLeft= ({title,  description, builtWith, viewProject, images , v
 }
 
 export default ProjectCardLeft;
-// use if in progress another project line , replace line 30 with the below 
+// use if in progress with another project , replace line 30 with the below 
 //{
 //    title === "Jills Office Signup" ? <div className="tc f5">Repository is private, message me for a code snippit.</div> :
 //    <a className="w4 tc f6 link dim br3 ph3 pv2 mb2 mt1 dib white bg-dark-blue" href={viewSourceCode} target="blank">Source Code</a>

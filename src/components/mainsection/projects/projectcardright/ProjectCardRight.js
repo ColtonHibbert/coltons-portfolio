@@ -37,10 +37,8 @@ const ProjectCardRight= ({ title, description, builtWith, viewProject, images, v
                 </div>
                 <div className="flex flex-column items-center">
                     <a className="w4 tc f6 link dim br3 ph3 pv2 mb2 mt1 dib white bg-dark-blue" href={viewSourceCode} target="blank">Source Code</a>
-                    {
-                        title === "MyOutdoorTrails" ? <div className="tc f5">Still in development, hosting in progress.</div> :
-                         <a className="w4 tc f6 link dim br3 ph3 pv2 mb2 mt1 dib white bg-dark-blue" href={viewProject} target="blank">View Project</a>
-                    }
+                    <a className="w4 tc f6 link dim br3 ph3 pv2 mb2 mt1 dib white bg-dark-blue" href={viewProject} target="blank">View Project</a>
+                    
                 </div>
             </div>
         </div>
@@ -48,3 +46,9 @@ const ProjectCardRight= ({ title, description, builtWith, viewProject, images, v
 }
 
 export default ProjectCardRight;
+
+// use if in progress with another project , replace line 30 with the below 
+// {
+//     title === "MyOutdoorTrails" ? <div className="tc f5">Still in development, hosting in progress.</div> :
+//      <a className="w4 tc f6 link dim br3 ph3 pv2 mb2 mt1 dib white bg-dark-blue" href={viewProject} target="blank">View Project</a>
+// }
