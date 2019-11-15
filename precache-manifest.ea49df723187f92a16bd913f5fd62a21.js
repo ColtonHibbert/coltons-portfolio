@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c4eaf448288cef400131",
+    "revision": "06f3fae3f96058489cb0",
     "url": "/coltons-portfolio/static/css/main.92754ee0.chunk.css"
   },
   {
-    "revision": "c4eaf448288cef400131",
-    "url": "/coltons-portfolio/static/js/main.c4eaf448.chunk.js"
+    "revision": "06f3fae3f96058489cb0",
+    "url": "/coltons-portfolio/static/js/main.06f3fae3.chunk.js"
   },
   {
     "revision": "a2d295eb67a1d408f47c",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/coltons-portfolio/static/media/javascriptcalculator.93782c7e.PNG"
   },
   {
-    "revision": "b346eaa23a4f6dda31a50e0fa01d9312",
+    "revision": "253740d0583343fbd1c903e6294179ee",
     "url": "/coltons-portfolio/index.html"
   }
 ];
