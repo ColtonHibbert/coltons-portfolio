@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "06f3fae3f96058489cb0",
+    "revision": "58fe06e76b2776239e54",
     "url": "/coltons-portfolio/static/css/main.92754ee0.chunk.css"
   },
   {
-    "revision": "06f3fae3f96058489cb0",
-    "url": "/coltons-portfolio/static/js/main.06f3fae3.chunk.js"
+    "revision": "58fe06e76b2776239e54",
+    "url": "/coltons-portfolio/static/js/main.58fe06e7.chunk.js"
   },
   {
     "revision": "a2d295eb67a1d408f47c",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/coltons-portfolio/static/js/2.3d4f465e.chunk.js"
   },
   {
-    "revision": "c1e3e2a14c7fff96c38e08661a32136e",
-    "url": "/coltons-portfolio/static/media/coltonhibbertfullstackdeveloper.c1e3e2a1.pdf"
+    "revision": "a1ad2a7b8a411a75b4d7f1846c061dc4",
+    "url": "/coltons-portfolio/static/media/coltonhibbertfullstackdeveloper1.a1ad2a7b.pdf"
   },
   {
     "revision": "0a38f716e119c0156ad15f5cb51e18bf",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/coltons-portfolio/static/media/javascriptcalculator.93782c7e.PNG"
   },
   {
-    "revision": "253740d0583343fbd1c903e6294179ee",
+    "revision": "2c21e81db3cde9b0e03364eb58f6a5a6",
     "url": "/coltons-portfolio/index.html"
   }
 ];
