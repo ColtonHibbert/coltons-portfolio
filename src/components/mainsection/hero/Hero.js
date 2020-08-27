@@ -11,7 +11,7 @@ const Hero = (props) => {
              <h1 className="mb1 pb1">Colton Hibbert</h1>
              <h2 className="mt1 pt0">Full-Stack Web Developer</h2> 
              <h2>About</h2>
-             <p className="ph4 ph5-ns ph6-m ph7-l pb2">I'm a web developer based out of Salt Lake City, Utah. My focus is on full-stack javascript.</p>
+             <p className="ph4 ph5-ns ph6-m ph7-l pb2">I'm a web developer based out of Salt Lake City, Utah. My focus is on full-stack web development.</p>
         </div>
     );
 }
