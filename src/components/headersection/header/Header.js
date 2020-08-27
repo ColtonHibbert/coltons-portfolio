@@ -1,5 +1,5 @@
 import React from 'react';
-import file from '../../../coltonhibbertfullstackdeveloper.pdf'
+import file from '../../../coltonhibbertfullstackdeveloper1.pdf'
 
 const Header = (props) => {
     return (
