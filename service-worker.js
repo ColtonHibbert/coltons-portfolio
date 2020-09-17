@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/coltons-portfolio/precache-manifest.bb35483354a92aaab3fec493038ff789.js"
+  "/coltons-portfolio/precache-manifest.f5e5f1cef03fb5c0c2336c14a62e2584.js"
 );
 
 workbox.clientsClaim();
